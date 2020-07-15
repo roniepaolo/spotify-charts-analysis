@@ -1,6 +1,6 @@
 # Spotify Charts Analysis in Lockdown
 
-<img src="https://dl-ta-dataset.s3.amazonaws.com/expo.png" alt="drawing" width="1000"/>
+<img src="https://raw.githubusercontent.com/roniepaolo/spotify-charts-analysis/master/images/pipeline.png" alt="drawing" width="1000"/>
 
 Academic work for my Data Analysis course. This repo contains analysis of Spotify Charts Top 200 for every country available. The goal is to determine if the worlwide lockdown have affected people in every country. In order to reach the goal, we assume 
 
