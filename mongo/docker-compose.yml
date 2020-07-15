@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+
+  mongo:
+    image: mongo:4.2.8-bionic
+    container_name: mongo_container
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: da-mongo
+      MONGO_INITDB_ROOT_PASSWORD: pucp-da-spotify-2020
+      MONGO_INITDB_DATABASE: spotifydb
+    volumes:
+      - ./init-mongo.js:/docker-entrypoint-initdb.d/init-mongo.js:ro
+      - ./mongo-volume:/data/db
+    ports:
+      - '27017-27019:27017-27019'
+
