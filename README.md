@@ -6,7 +6,7 @@ Academic work for my Data Analysis course. This repo contains analysis of Spotif
 
 ## Usage
 
-Just explore the notebook in order to do the analysis yourself. We deploy a dash dashboard in an EC2 with docker-compose.
+Just explore the notebook in order to do the analysis yourself. We deployed a dash dashboard in an EC2 with docker-compose.
 
 ## Contributing
 * Ronie Arauco
