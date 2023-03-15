@@ -10,4 +10,3 @@ Just explore the notebook in order to do the analysis yourself. We deployed a da
 
 ## Contributing
 * Ronie Arauco
-* Handry Guillen
